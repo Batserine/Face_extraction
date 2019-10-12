@@ -4,9 +4,9 @@ import numpy as np
 from PIL import Image
 from numpy import unravel_index
 
-#imagePath = sys.argv[1]
+imagePath = sys.argv[1]
 
-image = cv2.imread("facedet/data/data1.jpg")
+image = cv2.imread(imagePath)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)	#Image grayscaling.
 
 print('Imagesize:',image.shape[0:2])
@@ -50,3 +50,5 @@ def main():
  else:
   print("High-resoluted images are not accepted. Enter images less than 1024*1024 resolution.")
   sys.exit(1)
+
+main()
