@@ -25,7 +25,7 @@ You can install this package in two ways:
 ```markdown
 # PIP Installation
 
-Install latest version(1.0) from the [source](https://pypi.org/project/facedet/).
+Install latest version(2.0) from the [source](https://pypi.org/project/facedet/).
               **or**
 `[sudo] pip install facedet`
 
