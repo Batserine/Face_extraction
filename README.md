@@ -2,31 +2,53 @@
 
 Python implementation of face extraction using haar-cascade classifier for frontal faces.
 
+### Requirements
+The requirements.txt file contains following:
+```markdown
+1. numpy
+2. opencv-python
+3. opencv-utils
 
+`[sudo] pip install -r requirements.txt`
+```
+
+```
+Download the project. Unzip this zip folder.
+```
 
 ### Installation
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+You can install this package in two ways:
+1. PIP installation
+2. ZIP extraction
 
 ```markdown
-Syntax highlighted code block
+# PIP Installation
 
-# Header 1
-## Header 2
-### Header 3
+Install latest version(1.0) from the [source](https://pypi.org/project/facedet/).
+              **or**
+`[sudo] pip install facedet`
 
-- Bulleted
-- List
+Then type `python3` **outside** folders' location in terminal. And type these to get output.
+`>>> import facedet`
+`>>> from facedet import faceext`
+`>>> faceext.extract()`
 
-1. Numbered
-2. List
+By default this package reads the images (`data2.jpg`) that was already given.
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
+```markdown
+# ZIP Installation
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+After extracting zip from the repository. Type this command  **in** file location.
+`[sudo] python3 faceext.py <path/to/image>` or you can select the images from data folder.
+
+This way you can check for different images.
+
+```
+### Remarks
+1. This application is applied to Low-resoluted images. Throws an exception if high-resolution given.
+2. Loops and Conditional statements are avoided and replaced with numpy arrays to reduce Time Complexity.
 
 ### License
 This project is licensed under the MIT license.
