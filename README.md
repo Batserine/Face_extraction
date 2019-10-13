@@ -2,6 +2,8 @@
 
 Python implementation of face extraction using haar-cascade classifier for frontal faces.
 
+**Extract facedet folder its the latest work.**
+
 ### Requirements
 The requirements.txt file contains following:
 ```markdown
