@@ -42,7 +42,7 @@ By default this package reads the images (`data2.jpg`) that was already given.
 ```markdown
 # ZIP Installation
 
-After extracting zip from the repository. Type this command  **in** file location. {outside **facedet** sub-folder}
+After extracting zip from the repository. Type this command  **in** file location. {inside **facedet** sub-folder}
 `[sudo] python3 faceext.py <path/to/image>` or you can select the images from data folder.
 
 This way you can check for different images.
