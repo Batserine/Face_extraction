@@ -31,7 +31,7 @@ Install latest version(2.0) from the [source](https://pypi.org/project/facedet/)
               **or**
 `[sudo] pip install facedet`
 
-Then type `python3` **outside** folders' location in terminal. And type these to get output.
+Then type `python3` **outside** folders' location in terminal. And type these to get output.{outside **facedet** root folder}
 `>>> import facedet`
 `>>> from facedet import faceext`
 `>>> faceext.extract()`
@@ -42,7 +42,7 @@ By default this package reads the images (`data2.jpg`) that was already given.
 ```markdown
 # ZIP Installation
 
-After extracting zip from the repository. Type this command  **in** file location.
+After extracting zip from the repository. Type this command  **in** file location. {outside **facedet** sub-folder}
 `[sudo] python3 faceext.py <path/to/image>` or you can select the images from data folder.
 
 This way you can check for different images.
